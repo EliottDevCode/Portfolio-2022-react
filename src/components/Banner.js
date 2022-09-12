@@ -9,7 +9,7 @@ import {isVisible} from "@testing-library/user-event/dist/utils";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Fullstack Developer", "Symfony", "Wordpress", "React"];
+    const toRotate = ["Fullstack Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
